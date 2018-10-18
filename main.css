@@ -10,11 +10,18 @@ body {
 h1 {
   padding: 20px 0px 10px 0px;
   font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+  color: #4364EC;
+}
+
+h3 {
+  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+  color: #4364EC;
 }
 
 a {
 color: #4364EC;
 text-decoration: none;
+font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
 }
 
 /* Centers images */
