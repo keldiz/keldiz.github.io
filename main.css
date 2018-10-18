@@ -1,17 +1,35 @@
 body {
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  padding: 30px 20px;
+  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+  line-height: 2;
+  padding: 30px 25px;
   text-align: center;
 }
 
 h1 {
   padding: 20px 0px 10px 0px;
+  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
 }
 
 a {
-color: #69CBBB;
+color: #4364EC;
 text-decoration: none;
+}
+
+/* Centers images */
+
+img {
+display: block;
+margin: 0px auto;
+}
+
+/* When you put a period in front of a CSS declaration, it indicates you are
+creating a new class. We can apply this to div elements to create different
+portfolio entries */
+
+.portfolio-item {
+margin-top: 60px;
+padding: 40px;
+background-color: #f7f7f7;
 }
