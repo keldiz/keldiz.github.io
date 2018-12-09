@@ -1,34 +1,73 @@
 body {
-  margin: 30px auto;
-  max-width: 1000px;
-  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+  margin: 15px auto;
+  max-width: 1500px;
+  font-family:'Montserrat Subrayada', sans-serif;
   line-height: 2;
-  padding: 30px 25px;
+  padding:20px 0px 0px;
   text-align: center;
+    background-color: #2D2F30
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
-  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
-  color: #4364EC;
+  padding: 10px 0px 0px 0px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
+  font-size: 30px;
+
 }
 
 h3 {
-  font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
-  color: #4364EC;
+  font-family:'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
 }
 
 a {
-color: #4364EC;
+padding: 50px 50px 50px 50px;
 text-decoration: none;
-font-family: @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+font-family:'Montserrat Subrayada', sans-serif;
+color: #D5DDE5;
 }
 
 /* Centers images */
 
-img {
-display: block;
-margin: 0px auto;
+
+p{
+  padding: 30px 50px 50px 50px;
+  font-size: 20px;
+  font-family:'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+footer{
+  font-family:'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
+  font-size: 14px;
+  margin-top: 160px;
+  margin-bottom: 30px;
+
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.container img {
+  margin: 20px auto;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(1.5);
+  cursor: zoom-out;
+}
+
+.line {
+    border-top: 4px solid lightgrey;
+    height: 30px;
+    width: 1500px;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
@@ -37,6 +76,25 @@ portfolio entries */
 
 .portfolio-item {
 margin-top: 60px;
+margin-left: 250px;
 padding: 40px;
-background-color: #f7f7f7;
+background-color: #82878C;
+max-width: 900px;
+
 }
+
+
+/* visited link */
+  a:visited {
+      color: #D5DDE5;
+    }
+
+/* mouse over link */
+  a:hover {
+      color: grey;
+    }
+
+  /* selected link */
+    a:active {
+      color: grey;
+    }
