@@ -22,7 +22,7 @@ h3 {
 }
 
 a {
-padding: 50px 50px 50px 50px;
+padding: 50px 80px 50px 50px;
 text-decoration: none;
 font-family:'Montserrat Subrayada', sans-serif;
 color: #D5DDE5;
@@ -82,6 +82,25 @@ background-color: #82878C;
 max-width: 900px;
 
 }
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30%;
+      padding: 20px 0px 50px 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
 
 
 /* visited link */
