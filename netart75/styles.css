@@ -1,0 +1,48 @@
+body {
+  background-color: navy;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+  margin-top: 40px;
+margin-left: 700px;
+padding: 40px;
+max-width: 900px;
+text-align: center;
+}
+
+
+img {
+  center
+}
+
+}
+
+div {
+  padding-top: 250px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.line {
+  margin-top: 60px;
+margin-left: 630px;
+padding: 40px;;
+max-width: 900px;
+}
