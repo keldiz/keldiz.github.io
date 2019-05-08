@@ -1,11 +1,11 @@
 body {
   margin: 15px auto;
   max-width: 1500px;
-  font-family:'Montserrat Subrayada', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   line-height: 2;
-  padding:20px 0px 0px;
+  padding: 20px 0px 0px;
   text-align: center;
-    background-color: #2D2F30
+  background-color: #2D2F30
 }
 
 h1 {
@@ -13,45 +13,41 @@ h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
   color: #D5DDE5;
   font-size: 30px;
-
 }
 
 h3 {
-  font-family:'Montserrat Subrayada', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   color: #D5DDE5;
 }
 
 h4 {
-    font-family:'Montserrat Subrayada', sans-serif;
-    color: #D5DDE5;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
 }
 
 a {
-padding: 50px 80px 50px 50px;
-text-decoration: none;
-font-family:'Montserrat Subrayada', sans-serif;
-color: #D5DDE5;
+  padding: 50px 80px 50px 50px;
+  text-decoration: none;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #D5DDE5;
 }
 
 /* Centers images */
-
-
-p{
+p {
   padding: 30px 50px 50px 50px;
   font-size: 20px;
-  font-family:'Montserrat Subrayada', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   color: #D5DDE5;
   margin-left: 160px;
   margin-right: 160px;
 }
 
-footer{
-  font-family:'Montserrat Subrayada', sans-serif;
+footer {
+  font-family: 'Montserrat Subrayada', sans-serif;
   color: #D5DDE5;
   font-size: 13px;
   margin-top: 160px;
   margin-bottom: 30px;
-
 }
 
 input[type=checkbox] {
@@ -64,61 +60,58 @@ input[type=checkbox] {
   cursor: zoom-in;
 }
 
-input[type=checkbox]:checked ~ label > img {
+input[type=checkbox]:checked~label>img {
   transform: scale(1.5);
   cursor: zoom-out;
 }
 
 .line {
-    border-top: 4px solid lightgrey;
-    height: 30px;
-    width: 1500px;
+  border-top: 4px solid lightgrey;
+  height: 30px;
+  width: 1500px;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
-
 .portfolio-item {
-margin-top: 60px;
-margin-left: 250px;
-padding: 40px;
-background-color: #82878C;
-max-width: 900px;
-
+  margin-top: 60px;
+  margin-left: 250px;
+  padding: 40px;
+  background-color: #82878C;
+  max-width: 900px;
 }
 
-<style>
-* {
-    box-sizing: border-box;
+<style>* {
+  box-sizing: border-box;
 }
 
 .column {
-    float: left;
-    width: 30%;
-      padding: 20px 0px 50px 40px;
+  float: left;
+  width: 30%;
+  padding: 20px 0px 50px 40px;
 }
 
 /* Clearfix (clear floats) */
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
+
 </style>
 
-
 /* visited link */
-  a:visited {
-      color: #D5DDE5;
-    }
+a:visited {
+  color: #D5DDE5;
+}
 
 /* mouse over link */
-  a:hover {
-      color: grey;
-    }
+a:hover {
+  color: grey;
+}
 
-  /* selected link */
-    a:active {
-      color: grey;
-    }
+/* selected link */
+a:active {
+  color: grey;
+}
